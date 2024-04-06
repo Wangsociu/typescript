@@ -11,3 +11,12 @@ while (i<10) {
     i++;
 }
 console.log(tong1);
+
+let j:number = 0;
+let tong2:number =0;
+do {
+    tong2 +=j;
+    j++
+} while (j<10)
+
+console.log(tong2);
